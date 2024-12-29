@@ -1,0 +1,17 @@
+Measures - Measures are nothing but the dynamic calculations and they are calculated at runtime so they occupy negligible space.
+
+
+Calculated Columns - They acquire physical space in your model and thus they increase the size of the model.
+
+
+
+In Power BI, the SUM function calculates the total of values in a single column, while the SUMX function evaluates an expression for each row in a table and then sums the results. 
+
+
+
+Whenever explicit filter is applied int that case `allselected` function will be dynamic with respect to that means the value will change
+but
+for `all` function the value will not change
+
+
+DAX function that removes all filters from a table except those specified by the user or used in the specified column
